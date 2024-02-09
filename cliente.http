@@ -17,3 +17,23 @@ GET  {{baseUrl}}/notifications
 
 ###
 
+# @name cancel_notification
+
+PATCH  {{baseUrl}}/notifications/76c7c2b1-3a9f-40df-a517-96dfd28c3fd6/cancel
+
+###
+
+# @name unread_notification
+PATCH  {{baseUrl}}/notifications/a03ea60a-44df-449f-8ce0-b952d493ff3b/unread
+
+###
+
+# @name count_from_recipient
+GET  {{baseUrl}}/notifications/count/from/dfsdfsdfsdfsdf
+
+###
+
+# @name get_from_recipient
+GET  {{baseUrl}}/notifications/from/dfsdfsdfsdfsdf
+
+###
