@@ -1,0 +1,19 @@
+@baseUrl = http://localhost:3000
+
+# @name send_notification
+POST {{baseUrl}}/notifications
+Content-Type: application/json
+
+{
+  "content": "Testando o envio de notificaçao pelo body da requisição!",
+  "category": "teste",
+  "recipientId": "dfsdfsdfsdfsdf"
+}
+
+###
+
+# @name list_notifications
+GET  {{baseUrl}}/notifications
+
+###
+
